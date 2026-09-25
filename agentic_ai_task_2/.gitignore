@@ -1,0 +1,26 @@
+# Virtual environment & Python
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project dynamic outputs (except .gitkeep)
+outputs/generated_posts/*
+!outputs/generated_posts/.gitkeep
+outputs/generated_scripts/*
+!outputs/generated_scripts/.gitkeep
+outputs/saved_results/*
+!outputs/saved_results/.gitkeep
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
